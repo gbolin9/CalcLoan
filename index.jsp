@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate Loan</title>
+</head>
+<body>
+    <h1>Loan Calculation</h1>
+    <form action="getParameters"
+    method = "get">
+        Loan Amount <input name ="loanAmount" type="text" size="20"> <br>
+        Annual Interest Rate <input name="annualInterestRate"type="text" size ="20"><br>
+        Number of Years <Input name="numberOfYears" type="text" size = "20"><br>
+        <p><input type="submit" value="submit"/>
+        <input type="reset" value="reset"/<>
+    </form>
+
+</body>
+</html>
